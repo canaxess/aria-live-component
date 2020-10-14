@@ -13,7 +13,7 @@ Creating reusable components makes the design consistently repeatable. A compone
 
 Taking the responsibility away from the developer to have to worry and think about these sorts of things means a stronger likelihood accessibility is being maintained and is being implemented consistently.
 
-## React usage
+## React Component Usage
 The `isCustomLiveRegion` parameter allows all aria attributes to be independently set
 
 ```html
