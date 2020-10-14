@@ -17,11 +17,19 @@ The `isCustomLiveRegion` parameter allows all aria attributes to be independentl
 <AlertComponent isCustomLiveRegion={true} ariaLive="polite" ariaAtomic={false} ariaRelevant="additions" 
 message={this.state.error}/>
 ```
-
+**Output**
+```html
+<div aria-live="polite" aria-atomic="false" aria-relevant="additions">{error message}</div>
+```
+---
 The `messageType` parameter accepts one of 3 defined roles **status, log, alert**
 
 ```html
 <AlertComponent messageType="alert" message={this.state.error}/>
+```
+**Output**
+```html
+<div role="alert">{error message}</div>
 ```
 
 ## Reusable Components
