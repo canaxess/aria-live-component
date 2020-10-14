@@ -4,9 +4,9 @@ Audible hints can be provided to screen reader users through an accessibility te
 ### Use the [WCAG 2.1 live region roles](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html) for defined message types
 Role | Urgency | What is announced?
 --- | --- | ---
-`role="log"` | Polite | New
-`role="status"` | Polite | Old & New
-`role="alert"` | Assertive | New
+`role="log"` | Polite | New Content
+`role="status"` | Polite | Old & New Content
+`role="alert"` | Assertive | New Content
 
 ## Reusable Components
 Creating reusable components makes the design consistently repeatable. A component can be created which has a range of parameters that can be set when developing, developers aren’t having to directly code the attributes they're simply setting what type of message to display.
